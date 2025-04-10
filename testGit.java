@@ -17,5 +17,8 @@ public int getEdad(){
 }
 public static void main(String[] args){
 	Persona p1 = new Persona(19,"Samuel");
+	Persona p2 = new Persona(18,"Rubén");
 	System.out.println("La persona : "+p1.getNombre()+"con edad: "+p1.getEdad()+"Dice: Hola Carmelo");
+	System.out.println("La persona : "+p2.getNombre()+"con edad: "+p2.getEdad()+"Dice: Adiós Carmelo");
+
 }
